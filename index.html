@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Favicon.png" style="height: 5px; width: 5px;">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>David Adeniyi | Personal Website</title>
+    <style>
+        section{
+            padding-top: 100px; padding-bottom: 100px;
+        }
+        li::marker{
+            content: "➼   ";
+        }
+        *::selection{
+            background-color: rgb(14, 1, 16);
+            color: rgb(255, 0, 247);
+        }
+
+        body
+      {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+      }
+.navbar-scrolled{
+  background-color: rgba(10, 0, 18, 0.7);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+}
+*{
+  transition: all 0.5s;
+}
+
+.bottoms{
+  color: rgba(179, 161, 197, 0.676);
+}
+
+.custom-btn {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .custom-btn:hover {
+      transform: translateY(-5px);
+      color: aliceblue;
+    }
+
+.custom-btn-2 {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .custom-btn-2:hover {
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0.5);
+    }
+    </style>
+</head>
+<body>
+    <header style="background-image: url(assets/Main-Intro-Bg.jpg); background-size: cover;">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container-fluid container">
+                <a class="navbar-brand" href="#main">
+                    <img src="assets/Main-Logo.png" alt="logo" width="40" height="20">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main.nav" aria-controls="main.nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center align-items-center" id="main.nav">
+                <div class="navbar-nav text-center">
+                  <a class="nav-link mx-5 custom-btn" href="#main" >
+                    HOME
+                </a>
+                  <a class="nav-link mx-5 custom-btn" href="#about">
+                    ABOUT
+                </a>
+                  <a class="nav-link  mx-5 custom-btn-2" href="/projects.html">
+                    <span style="color: gold;">PROJECTS</span>
+                  </a>
+                  <a class="nav-link mx-5 custom-btn" href="#contact">
+                    CONTACT
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <section id="main">
+          <div class="container-lg">
+              <div class="row justify-content-center align-items-center">
+                  <div class="col-xxl-8 col-lg-10" style="padding-top: 100px; padding-bottom: 100px;">
+                      <div class="text-lg-start border-end border-3 border-lg-0 d-none d-lg-block"> 
+                        <h1>
+                          <div class="display-4" style="color: rgba(240, 248, 255, 0.682);">Hi, I'm</div>
+                          <div class="display-1 text-light">David Adeniyi</div>
+                          <p class="display-6" style="color: rgba(240, 248, 255, 0.468);">Aspiring Developer</p>
+                        </h1>
+                      </div>
+                        <div class="text-center d-block d-lg-none"> 
+                          <h1>
+                            <div class="display-4" style="color: rgba(240, 248, 255, 0.682);">Hi, I'm</div>
+                            <div class="display-1 text-light">David Adeniyi</div>
+                            <p class="display-6" style="color: rgba(240, 248, 255, 0.468);">Aspiring Developer</p>
+                          </h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xxl-4 d-none  d-lg-block">
+                        <div style="height: 700px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main style="background-color: rgb(50, 27, 103);">
+       <section id="about">
+        <div container>
+            <div class="text-center">
+                <h1 class="display-1" style="color: rgba(179, 161, 197, 0.676);">About Me</h1>
+            </div>
+
+            <!--3 Cards for the about section-->
+            <div class="row g-5 my-5 justify-content-center" style="padding: 20px;">
+                <div class="col-xl-3 col-md-9">
+                    <div class="card h-100" style="  background-color: rgba(166, 122, 211, 0.1); box-shadow: 0 0 30px rgb(34, 14, 53); border-radius: 20px;">
+                        <img src="assets/Main-About-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-white text-center fs-2 lead mb-4">Interests</h5>
+                          <p class="card-text text-center text-lg-start" style="color: rgba(255, 255, 255, 0.6);">I’ve always loved creating stuff. I used to spend time making games with my friends, but recently started learning music production and have been focusing on that. I play sports when I can and have really been enjoying track and field lately. My gym membership expired so I spend a lot of my time working on field events like the long jump and triple jump.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-xl-3 col-md-9">
+                    <div class="card border-0 h-100" style=" box-shadow: 0 0 30px rgb(34, 14, 53); background-color: rgba(142, 104, 181, 0.276); border-radius: 20px;">
+                        <img src="assets/Main-About-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-white text-center fs-2 lead mb-4">Experiences</h5>
+                          <p class="card-text text-center text-lg-start" style="color: rgba(255, 255, 255, 0.6);">I've had experience using;</p>
+                          <ul>
+                            <li style="color: rgba(255, 255, 255, 0.6); ">HTML & CSS</li>
+                            <li style="color: rgba(255, 255, 255, 0.6);">JavaScript</li>
+                            <li style="color: rgba(255, 255, 255, 0.6);">Python</li>
+                            <li style="color: rgba(255, 255, 255, 0.6);">Bootstrap 5</li>
+                            <li style="color: rgba(255, 255, 255, 0.6);">Java</li>
+                            <li style="color: rgba(255, 255, 255, 0.6);">Node.js, MongoDB & React</li>
+                          </ul>
+                          <div class="text-end">
+                            <a href="#" class="btn" style="background-color: rgba(166, 122, 211, 0.5); color: white;">Résumé</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-xl-3 col-md-9">
+                    <div class="card border-0 h-100" style="background-color: rgba(166, 122, 211, 0.1); box-shadow: 0 0 30px rgb(34, 14, 53); border-radius: 20px;">
+                        <img src="assets/Main-About-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-white text-center fs-2 lead mb-4">Projects</h5>
+                          <p class="card-text text-center text-lg-start" style="color: rgba(255, 255, 255, 0.6);">I challenge myself with fun projects when I can. A good amount of them are incomplete <a href="/projects.html" class="btn custom-btn-2" style=" color: gold;">See Projects</a></p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+       </section>
+      </main>
+    <footer style="background-image: linear-gradient(rgb(50, 27, 103), rgb(97, 42, 97));">
+        <section id="contact">
+            <div class="container">
+                <h1 class="display-1 text-center" style="color: rgba(179, 161, 197, 0.676);">Contact Me</h1>
+                <div class="row justify-content-center text-center gy-5 display-1" style="padding-top: 80px;">
+                        <div class="col-sm-2 custom-btn">
+                            <a class="custom-btn bottoms" href="mailto:dadeniyi54@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                        </div>
+                        <div class="col-sm-2 custom-btn">
+                            <a class="custom-btn bottoms" href="https://www.linkedin.com/in/adeniyi-david/"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <div class="col-sm-2 custom-btn">
+                            <a class="custom-btn bottoms" href="https://github.com/DavidAde6"><i class="bi bi-github"></i></a>
+                        </div>
+                </div>
+                <h2 class="lead text-center" style="color: rgba(179, 161, 197, 0.5); padding-top: 40px"><span style="color: rgba(179, 161, 197, 1);"><i class="bi bi-telephone"></i>   Phone:</span> (204) 930-3026</h2>
+                <h2 class="lead text-center" style="color: rgba(179, 161, 197, 0.5);"><span style="color: rgba(179, 161, 197, 1);"><i class="bi bi-envelope"></i>  E-mail:</span> dadeniyi54@gmail.com</h2>
+                <h2 class="display-6 text-center" style="color: rgba(179, 161, 197, 1); padding-top: 80px">Website Created by David Adeniyi</h2>
+                
+            </div>
+        </section>
+    </footer>
+    <script>
+      const navEl = document.querySelector('.navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 250) {
+          navEl.classList.add('navbar-scrolled')
+        }
+        else {
+          navEl.classList.remove('navbar-scrolled')
+        }
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
