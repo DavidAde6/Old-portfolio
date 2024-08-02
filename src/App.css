@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'DiamondDust';
+    src: url(/src/assets/DiamondDust-L5d5.otf);
+}
+
+@font-face {
+    font-family: 'Adequate';
+    src: url(/src/assets/Adequate-ExtraLight.ttf);
+}
+
 .test {
     color: rgb(0, 0, 0);
 }
@@ -16,4 +26,28 @@
 
 .test-5 {
     color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.name {
+    position: relative;
+    font-family: 'DiamondDust';
+    font-size: 100px;
+    margin: 20px;
+}
+
+.title {
+    font-family: 'Adequate';
+    margin: 10px;
+    font-size: 40px;
+    
 }

@@ -10,7 +10,7 @@ function App() {
 
   return ( 
     <>
-      <Introduction />
+      <Introduction name='David Adeniyi' title='Carleton CS Student' />
       <AboutMe />
       <Projects />
       <Skills />

@@ -1,12 +1,17 @@
+interface Props{
+    name: string;
+    title: string;
+}
 
-
-function Introduction() {
+function Introduction({name, title}: Props) {
+    console.log(name);
+    console.log(title);
 
     return (
-        <>
-        <p className='test'> David Adeniyi</p>
-        <p className='test'> Carleton CS Student TESTING</p>
-        </>
+        <div className="container">
+            <h1 className='name'>{name}</h1>
+            <h1 className='title'>{title}</h1>
+        </div>
     )
 }
 
