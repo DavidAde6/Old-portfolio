@@ -7,7 +7,6 @@ import Skills from './components/Skills';
 import Contacts from './components/Contacts';
 
 function App() {
-
   return ( 
     <>
       <Introduction name='David Adeniyi' title='Carleton CS Student' />
