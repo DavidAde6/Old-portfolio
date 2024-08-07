@@ -1,11 +1,21 @@
 @font-face {
     font-family: 'DiamondDust';
-    src: url(/src/assets/DiamondDust-L5d5.otf);
+    src: url(/src/assets/fonts/DiamondDust-L5d5.otf);
 }
 
 @font-face {
     font-family: 'Adequate';
-    src: url(/src/assets/Adequate-ExtraLight.ttf);
+    src: url(/src/assets/fonts/Adequate-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(/src/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(/src/assets/fonts/Montserrat-Light.ttf);
 }
 @keyframes titleAppear {
     0%{
@@ -42,8 +52,21 @@
     }
 }
 
+* {
+    overflow-x: hidden;
+}
 
-.container {
+.introductionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.aboutMeContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,4 +113,24 @@
     transform: translateY(-23vh);
     z-index: 1;
     animation: whiteSpaceDisappear 0.1s linear 2.4s forwards;
+}
+
+.aboutMe-p1 {
+    font-size: 40px;
+    font-family: 'Montserrat-Light';
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.aboutMe-p2 {
+    font-size: 40px;
+    font-family: 'Montserrat-Light';
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: 1;
 }

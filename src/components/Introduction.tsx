@@ -8,7 +8,7 @@ interface Props{
 function Introduction({name, title}: Props) {
     window.scroll({top:0})
     return (
-        <div className="container">
+        <div className="introductionContainer">
             <div className="nameWhiteSpace"></div>
             <div className="titleWhiteSpace"></div>
             <h1 className='name'>{name}</h1>
