@@ -20,7 +20,7 @@ function Projects() {
             <h1>Personal Portfolio</h1>
             <img
               className="display-img"
-              src="../src/assets/images/React.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
               alt="React"
             />
             <img
