@@ -25,17 +25,17 @@ function Projects() {
             />
             <img
               className="display-img"
-              src="src/assets/images/Typescript_logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Typescript_logo.png"
               alt="TypeScript"
             />
             <img
               className="display-img"
-              src="src/assets/images/css-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
               alt="CSS"
             />
             <img
               className="display-img"
-              src="src/assets/images/html-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
               alt="HTML"
             />
             <p>
@@ -63,27 +63,27 @@ function Projects() {
             <h1>Titanic Survival Estimator</h1>
             <img
               className="display-img"
-              src="src/assets/images/PyTorch.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
               alt="PyTorch"
             />
             <img
               className="display-img"
-              src="src/assets/images/numpy-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
               alt="Numpy"
             />
             <img
               className="display-img"
-              src="src/assets/images/pandas-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
               alt="Pandas"
             />
             <img
               className="display-img"
-              src="src/assets/images/Typescript_logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Typescript_logo.png"
               alt="TypeScript"
             />
             <img
               className="display-img"
-              src="src/assets/images/css-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
               alt="CSS"
             />
             <img
@@ -119,17 +119,17 @@ function Projects() {
             </h1>
             <img
               className="display-img"
-              src="src/assets/images/PyTorch.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
               alt="PyTorch"
             />
             <img
               className="display-img"
-              src="src/assets/images/numpy-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
               alt="Numpy"
             />
             <img
               className="display-img"
-              src="src/assets/images/pandas-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
               alt="Pandas"
             />
             <p>MORE INFO SOON</p>
@@ -148,7 +148,7 @@ function Projects() {
             <h1>Fantasy Video Game Development (Roblox)</h1>
             <img
               className="display-img"
-              src="src/assets/images/Lua-Logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Lua-Logo.png"
               alt="Lua"
             />
             <p>
@@ -171,32 +171,32 @@ function Projects() {
             <h1>AI Video Analysis</h1>
             <img
               className="display-img"
-              src="src/assets/images/PyTorch.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
               alt="PyTorch"
             />
             <img
               className="display-img"
-              src="src/assets/images/numpy-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
               alt="Numpy"
             />
             <img
               className="display-img"
-              src="src/assets/images/pandas-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
               alt="Pandas"
             />
             <img
               className="display-img"
-              src="src/assets/images/React-Logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
               alt="React"
             />
             <img
               className="display-img"
-              src="src/assets/images/Typescript_logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Typescript_logo.png"
               alt="TypeScript"
             />
             <img
               className="display-img"
-              src="src/assets/images/css-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
               alt="CSS"
             />
             <img
