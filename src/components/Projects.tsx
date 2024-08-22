@@ -70,7 +70,7 @@ function Projects() {
             />
             <img
               className="display-img"
-              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Python.jpg"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/python.jpg"
               alt="Python"
             />
             <img
@@ -134,7 +134,7 @@ function Projects() {
             />
             <img
               className="display-img"
-              src="src/assets/images/html-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
               alt="HTML"
             />
             <div className="projectParagraph">
@@ -248,7 +248,7 @@ function Projects() {
             />
             <img
               className="display-img"
-              src="src/assets/images/html-logo.png"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
               alt="HTML"
             />
             <div className="projectParagraph">
