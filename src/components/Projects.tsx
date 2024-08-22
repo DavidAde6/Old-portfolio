@@ -15,9 +15,9 @@ function Projects() {
     <>
       <div className="projectSlide">
         <div className="projectContents">
-          <h1>Project 1</h1>
-          <div>
-            <h1>Personal Portfolio</h1>
+          <h1 className="projectHeader">01</h1>
+          <div className="projectBody">
+            <h1 className="projectTitle">Personal Portfolio</h1>
             <img
               className="display-img"
               src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
@@ -38,19 +38,16 @@ function Projects() {
               src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
               alt="HTML"
             />
-            <p>
-              Fully responsive website designed primarily using React, with the
-              help of popular frameworks like framer-motion and
-              styled-components.
-            </p>
-            <p>
-              Completely hosted on github, I am able to leverage Git and version
-              control to speedily and efficiently make chnages
-            </p>
-            <p>Additionally built using Typescript, HTML and CSS.</p>
+            <div className="projectParagraph">
+              <p>
+                Fully responsive website designed primarily using React and its
+                frameworks. Leveraged Git and version control to track changes.
+                Additionally built using Typescript, HTML and CSS.
+              </p>
+            </div>
           </div>
-          <a href="https://davidade6.github.io/">
-            <button>Link</button>
+          <a href="https://davidade6.github.io/" className="projectLink">
+            <button className="projectLinkButton">Link</button>
           </a>
         </div>
         <div className="projectImage"></div>
@@ -58,9 +55,58 @@ function Projects() {
 
       <div className="projectSlide">
         <div className="projectContents">
-          <h1>Project 2</h1>
-          <div>
-            <h1>Titanic Survival Estimator</h1>
+          <h1 className="projectHeader">02</h1>
+          <div className="projectBody">
+            <h1 className="projectTitle">Interactive Pathfinding</h1>
+            <img
+              className="display-img"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Flask.png"
+              alt="Flask"
+            />
+            <img
+              className="display-img"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PythonAnywhere.png"
+              alt="PythonAnywhere"
+            />
+            <img
+              className="display-img"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Python.jpg"
+              alt="Python"
+            />
+            <img
+              className="display-img"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
+              alt="CSS"
+            />
+            <img
+              className="display-img"
+              src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
+              alt="HTML"
+            />
+            <div className="projectParagraph">
+              <p>
+                Used AI techniques and neural networks to create an interactive
+                pathfinding visualizer on a grid. Designed mainly with Python,
+                and HTML & CSS for interface. Flask and PythonAnywhere to host
+                the app.
+              </p>
+            </div>
+          </div>
+          <a
+            href="https://davidxde.pythonanywhere.com/"
+            className="projectLink"
+          >
+            <button className="projectLinkButton">Link</button>
+          </a>
+        </div>
+        <div className="projectImage"></div>
+      </div>
+
+      <div className="projectSlide">
+        <div className="projectContents">
+          <h1 className="projectHeader">03</h1>
+          <div className="projectBody">
+            <h1 className="projectTitle">Titanic Survival Estimator</h1>
             <img
               className="display-img"
               src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
@@ -91,20 +137,16 @@ function Projects() {
               src="src/assets/images/html-logo.png"
               alt="HTML"
             />
-            <p>
-              Uses AI Algorithms powered by pytorch, and python data structure
-              frameworks like pandas, and numpy to determine whether an
-              individual might have survived on the titanic based on their
-              information
-            </p>
-            <p>
-              Additionally powered by Typescript on the backend, HTML & CSS on
-              the frontend, allowing users to input necessary information
-            </p>
-            <p>To be released by Jan 1st 2025</p>
+            <div className="projectParagraph">
+              <p>
+                Powered by pytorch, and frameworks like pandas, and numpy to
+                determine whether an individual might have survived on the
+                titanic. Built with by Python, Typescript, HTML & CSS
+              </p>
+            </div>
           </div>
-          <a href="">
-            <button>UNAVAILABLE</button>
+          <a href="" className="projectLink">
+            <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
         <div className="projectImage"></div>
@@ -112,11 +154,9 @@ function Projects() {
 
       <div className="projectSlide">
         <div className="projectContents">
-          <h1>Project 3</h1>
-          <div>
-            <h1>
-              AI-Powered Lakes & River Path Optimisation for Sustainability
-            </h1>
+          <h1 className="projectHeader">04</h1>
+          <div className="projectBody">
+            <h1 className="projectTitle">Lakes & River Path Optimisation</h1>
             <img
               className="display-img"
               src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
@@ -132,10 +172,12 @@ function Projects() {
               src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
               alt="Pandas"
             />
-            <p>MORE INFO SOON</p>
+            <div className="projectParagraph">
+              <p>MORE INFO SOON</p>
+            </div>
           </div>
-          <a href="https://davidade6.github.io/">
-            <button>UNAVAILABLE</button>
+          <a href="https://davidade6.github.io/" className="projectLink">
+            <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
         <div className="projectImage"></div>
@@ -143,22 +185,27 @@ function Projects() {
 
       <div className="projectSlide">
         <div className="projectContents">
-          <h1>Project 4</h1>
-          <div>
-            <h1>Fantasy Video Game Development (Roblox)</h1>
+          <h1 className="projectHeader">05</h1>
+          <div className="projectBody">
+            <h1 className="projectTitle">Game Development (Roblox)</h1>
             <img
               className="display-img"
               src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Lua-Logo.png"
               alt="Lua"
             />
-            <p>
-              Aided with the scripting of a roblox game using LUA. Collaborated
-              with a team of developers to build a game on the roblox
-              platformss.
-            </p>
+            <div className="projectParagraph">
+              <p>
+                Aided with the scripting of a roblox game using LUA.
+                Collaborated with a team of developers to build a game on the
+                roblox platformss.
+              </p>
+            </div>
           </div>
-          <a href="https://www.roblox.com/games/16757765700/02">
-            <button>Link</button>
+          <a
+            href="https://www.roblox.com/games/16757765700/02"
+            className="projectLink"
+          >
+            <button className="projectLinkButton">Link</button>
           </a>
         </div>
         <div className="projectImage"></div>
@@ -166,9 +213,9 @@ function Projects() {
 
       <div className="projectSlide">
         <div className="projectContents">
-          <h1>Project 5</h1>
-          <div>
-            <h1>AI Video Analysis</h1>
+          <h1 className="projectHeader">06</h1>
+          <div className="projectBody">
+            <h1 className="projectTitle">AI Video Analysis</h1>
             <img
               className="display-img"
               src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
@@ -204,10 +251,12 @@ function Projects() {
               src="src/assets/images/html-logo.png"
               alt="HTML"
             />
-            <p>MORE INFO SOON</p>
+            <div className="projectParagraph">
+              <p>MORE INFO SOON</p>
+            </div>
           </div>
-          <a href="">
-            <button>UNAVAILABLE</button>
+          <a href="" className="projectLink">
+            <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
         <div className="projectImage"></div>

@@ -8,11 +8,12 @@ function AboutMe() {
     color: rgb(238, 238, 238);
     position: absolute;
     margin-left: auto;
-    margin-right: 0px;
+    margin-right: 10px;
+    transition: transform 0.8s ease-out;
   `;
 
   const { scrollYProgress } = useScroll();
-  const x = useTransform(scrollYProgress, [0, 1], [-200, 1500]);
+  const x = useTransform(scrollYProgress, [0, 1], [-1000, 6000]);
   return (
     <div className="aboutMeContainer">
       <Title style={{ x }}> About Me</Title>
@@ -20,9 +21,7 @@ function AboutMe() {
         Being able to create, while expanding my craft is what gives <br /> me
         purpose
       </p>
-      <p className="aboutMe-p2">
-        Here are some cool projects I built along the way 😎
-      </p>
+      <p className="aboutMe-p2">Here are some of my projects ⬇️</p>
     </div>
   );
 }

@@ -56,6 +56,16 @@
   overflow-x: hidden;
 }
 
+@keyframes colorTransition {
+  0% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: black;
+  }
+}
+
 .introductionContainer {
   display: flex;
   flex-direction: column;
@@ -135,17 +145,16 @@
 }
 
 .display-img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   margin: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .projectContents {
   height: 100vh;
   width: 50%;
   margin: 0;
+  position: relative;
 }
 
 .projectImage {
@@ -157,4 +166,53 @@
 .projectSlide {
   margin: 0;
   display: flex;
+}
+
+.projectHeader {
+  font-family: "Adequate";
+  margin-left: 40px;
+}
+
+.projectLink {
+  bottom: 50px;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.projectLinkButton {
+  background-color: white;
+  width: 330px;
+  height: 80px;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 40px;
+  font-family: "Montserrat-Light";
+  transition: transform 0.5s ease-out;
+  margin: 15px;
+}
+
+.projectLinkButton:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.05);
+  color: white;
+  animation: colorTransition 0.4s ease-out;
+}
+
+.projectBody {
+  margin-left: 100px;
+  align-items: center;
+}
+
+.projectTitle {
+  font-family: "Montserrat-Bold";
+  font-size: 50px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.projectParagraph {
+  margin: 30px;
+  font-family: "Montserrat-Light";
+  font-size: 25px;
 }
