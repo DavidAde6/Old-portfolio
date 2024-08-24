@@ -13,58 +13,29 @@ function Projects() {
     const rect5 = project5.getBoundingClientRect();
     const project6 = document.getElementById("id-6")!;
     const rect6 = project6.getBoundingClientRect();
-    if (rect6.top <= 0) {
+    if (rect6.top <= 0 && rect6.bottom >= 0) {
       project5.classList.remove("fixed");
       project6.classList.remove("relative");
       project6.classList.add("fixed");
-    } else if (rect5.top <= 0) {
-      console.log(rect5.top);
+    } else if (rect5.top <= 0 && rect5.bottom >= 0) {
       project4.classList.remove("fixed");
       project5.classList.remove("relative");
       project5.classList.add("fixed");
-    } else if (rect4.top <= 0) {
+    } else if (rect4.top <= 0 && rect4.bottom >= 0) {
       project3.classList.remove("fixed");
       project4.classList.remove("relative");
       project4.classList.add("fixed");
-    } else if (rect3.top <= 0) {
+    } else if (rect3.top <= 0 && rect3.bottom >= 0) {
       project2.classList.remove("fixed");
       project3.classList.remove("relative");
       project3.classList.add("fixed");
-    } else if (rect2.top <= 0) {
+    } else if (rect2.top <= 0 && rect2.bottom >= 0) {
       project1.classList.remove("fixed");
       project2.classList.remove("relative");
       project2.classList.add("fixed");
-    } else if (rect1.top <= 0) {
+    } else if (rect1.top <= 0 && rect1.bottom >= 0) {
       project1.classList.remove("relative");
       project1.classList.add("fixed");
-    }
-    if (rect1.top >= 0) {
-      project1.classList.remove("fixed");
-      project1.classList.add("relative");
-    }
-    if (rect2.top >= 0) {
-      project2.classList.remove("fixed");
-      project2.classList.add("relative");
-    }
-    if (rect3.top >= 0) {
-      project3.classList.remove("fixed");
-      project3.classList.add("relative");
-    }
-    if (rect4.top >= 0) {
-      project4.classList.remove("fixed");
-      project4.classList.add("relative");
-    }
-    if (rect5.top >= 0) {
-      project5.classList.remove("fixed");
-      project5.classList.add("relative");
-    }
-    if (rect6.top >= 0) {
-      project6.classList.remove("fixed");
-      project6.classList.add("relative");
-    }
-    if (rect6.bottom <= 0) {
-      project6.classList.remove("fixed");
-      project6.classList.add("relative");
     }
   });
   return (
