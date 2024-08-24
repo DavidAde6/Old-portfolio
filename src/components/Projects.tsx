@@ -18,6 +18,7 @@ function Projects() {
       project6.classList.remove("relative");
       project6.classList.add("fixed");
     } else if (rect5.top <= 0) {
+      console.log(rect5.top);
       project4.classList.remove("fixed");
       project5.classList.remove("relative");
       project5.classList.add("fixed");
@@ -34,9 +35,36 @@ function Projects() {
       project2.classList.remove("relative");
       project2.classList.add("fixed");
     } else if (rect1.top <= 0) {
-      console.log(rect1.top);
       project1.classList.remove("relative");
       project1.classList.add("fixed");
+    }
+    if (rect1.top >= 0) {
+      project1.classList.remove("fixed");
+      project1.classList.add("relative");
+    }
+    if (rect2.top >= 0) {
+      project2.classList.remove("fixed");
+      project2.classList.add("relative");
+    }
+    if (rect3.top >= 0) {
+      project3.classList.remove("fixed");
+      project3.classList.add("relative");
+    }
+    if (rect4.top >= 0) {
+      project4.classList.remove("fixed");
+      project4.classList.add("relative");
+    }
+    if (rect5.top >= 0) {
+      project5.classList.remove("fixed");
+      project5.classList.add("relative");
+    }
+    if (rect6.top >= 0) {
+      project6.classList.remove("fixed");
+      project6.classList.add("relative");
+    }
+    if (rect6.bottom <= 0) {
+      project6.classList.remove("fixed");
+      project6.classList.add("relative");
     }
   });
   return (
@@ -303,6 +331,15 @@ function Projects() {
             <a href="" className="projectLink">
               <button className="projectLinkButton">UNAVAILABLE</button>
             </a>
+          </div>
+        </div>
+        <div className="projectImage"></div>
+      </div>
+
+      <div className="projectSlide">
+        <div className="projectContents">
+          <div className="relative">
+            <div className="projectBody"></div>
           </div>
         </div>
         <div className="projectImage"></div>

@@ -219,7 +219,7 @@
 
 .relative {
   position: relative;
-  z-index: 1000;
+  visibility: hidden;
   top: 0;
   width: 50vw;
   height: 100%;
@@ -227,6 +227,7 @@
 
 .fixed {
   position: fixed;
+  visibility: visible;
   z-index: 1000;
   top: 0;
   width: 50vw;
