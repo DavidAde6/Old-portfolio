@@ -42,6 +42,18 @@
   }
 }
 
+@keyframes projAppear {
+  0% {
+    transform: translateX(-100px) scale(0.85);
+    opacity: 50%;
+  }
+
+  100% {
+    transform: translateX(0px) scale(1);
+    opacity: 100%;
+  }
+}
+
 @keyframes whiteSpaceDisappear {
   0% {
     display: block;
@@ -150,10 +162,20 @@
   margin: 10px;
 }
 
+.divjustify {
+  height: 100vh;
+  width: 50%;
+  margin: 0;
+  visibility: hidden;
+}
+
 .projectImage {
   height: 100vh;
   width: 50%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 700px;
 }
 
 .projectSlide {
@@ -220,9 +242,15 @@
 
 .fixed {
   position: fixed;
+  animation: projAppear 0.6s ease-out;
   visibility: visible;
-  z-index: 1000;
   top: 0;
   width: 50vw;
   height: 100%;
+}
+
+.scrollingImage {
+  width: 300px;
+  height: 612px;
+  display: flex;
 }

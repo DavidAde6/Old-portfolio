@@ -2,9 +2,8 @@ function Projects() {
   // OPTIMIZE CODE WHEN U HAVE TIME!!!
   window.addEventListener("scroll", () => {
     // BRO USE THE PROJECT IMAGE TO CHECK INSTEAD
-    const projects = document.getElementsByClassName("relative");
     const project1 = document.getElementById("id-1")!;
-    const images = document.getElementsByClassName("projectImage");
+    const images = document.getElementsByClassName("divjustify");
     const rect1 = images[0].getBoundingClientRect();
     const project2 = document.getElementById("id-2")!;
     const rect2 = images[1].getBoundingClientRect();
@@ -16,7 +15,6 @@ function Projects() {
     const rect5 = images[4].getBoundingClientRect();
     const project6 = document.getElementById("id-6")!;
     const rect6 = images[5].getBoundingClientRect();
-    console.log(rect6.top, rect6.bottom);
     if (rect6.top <= 0 && rect6.bottom >= 0) {
       project5.classList.remove("fixed");
       project5.classList.add("relative");
@@ -108,7 +106,14 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="projectImage"></div>
+        <div className="divjustify"></div>
+        <div className="projectImage">
+          <img
+            className="scrollingImage"
+            src="/src/assets/images/PersonalPortfolio.png"
+            alt=""
+          />
+        </div>
       </div>
 
       <div className="projectSlide">
@@ -160,7 +165,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="projectImage"></div>
+        <div className="divjustify"></div>
       </div>
 
       <div className="projectSlide">
@@ -210,7 +215,7 @@ function Projects() {
             <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
-        <div className="projectImage"></div>
+        <div className="divjustify"></div>
       </div>
 
       <div className="projectSlide">
@@ -241,7 +246,7 @@ function Projects() {
             <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
-        <div className="projectImage"></div>
+        <div className="divjustify"></div>
       </div>
 
       <div className="projectSlide">
@@ -269,7 +274,7 @@ function Projects() {
             <button className="projectLinkButton">Link</button>
           </a>
         </div>
-        <div className="projectImage"></div>
+        <div className="divjustify"></div>
       </div>
 
       <div className="projectSlide">
@@ -320,14 +325,14 @@ function Projects() {
             <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
-        <div className="projectImage"></div>
+        <div className="divjustify"></div>
       </div>
 
       <div className="projectSlide">
         <div className="relative">
           <div className="projectBody"></div>
         </div>
-        <div className="projectImage"></div>
+        <div className="divjustify"></div>
       </div>
     </>
   );
