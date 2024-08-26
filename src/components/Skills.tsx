@@ -1,12 +1,15 @@
 function Skills() {
   return (
-    <>
-      <p className="test-4">Skills</p>
-      <p className="test-4">
-        HTML & CSS, React, Python, TypeScript, JavaScript, Database, Machine
-        Learning, Pandas...
+    <div className="SkillsContainer">
+      <h1>Skills</h1>
+      <p>TypeScript, Javascript, HTML, CSS, React, Bootstrap</p>
+      <p>Python, Pandas, Numpy, Pytorch</p>
+      <p>
+        Time-Management, Emotional Intelligence, Project Management, Active
+        Listening
       </p>
-    </>
+      <p>Python, Pandas, Numpy, Pytorch</p>
+    </div>
   );
 }
 

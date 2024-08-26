@@ -13,7 +13,7 @@ function AboutMe() {
   `;
 
   const { scrollYProgress } = useScroll();
-  const x = useTransform(scrollYProgress, [0, 1], [-1000, 6000]);
+  const x = useTransform(scrollYProgress, [0, 1], [-800, 12000]);
   return (
     <div className="aboutMeContainer">
       <Title style={{ x }}> About Me</Title>
