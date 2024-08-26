@@ -367,7 +367,7 @@ function Projects() {
         <div className="relative">
           <div className="projectBody"></div>
         </div>
-        <div className="divjustify"></div>
+        <div style={{ height: "100vh" }} className="divjustify"></div>
       </div>
     </>
   );
