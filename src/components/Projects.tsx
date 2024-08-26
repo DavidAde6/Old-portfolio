@@ -110,7 +110,7 @@ function Projects() {
         <div className="projectImage">
           <img
             className="scrollingImage"
-            src="/src/assets/images/PersonalPortfolio.png"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PersonalPortfolio.png"
             alt=""
           />
         </div>
@@ -166,6 +166,13 @@ function Projects() {
           </div>
         </div>
         <div className="divjustify"></div>
+        <div className="projectImage">
+          <img
+            className="scrollingImage"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
+            alt=""
+          />
+        </div>
       </div>
 
       <div className="projectSlide">
@@ -216,6 +223,13 @@ function Projects() {
           </a>
         </div>
         <div className="divjustify"></div>
+        <div className="projectImage">
+          <img
+            className="scrollingImage"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
+            alt=""
+          />
+        </div>
       </div>
 
       <div className="projectSlide">
@@ -247,6 +261,13 @@ function Projects() {
           </a>
         </div>
         <div className="divjustify"></div>
+        <div className="projectImage">
+          <img
+            className="scrollingImage"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
+            alt=""
+          />
+        </div>
       </div>
 
       <div className="projectSlide">
@@ -275,6 +296,13 @@ function Projects() {
           </a>
         </div>
         <div className="divjustify"></div>
+        <div className="projectImage">
+          <img
+            className="scrollingImage"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/RobloxGame.png"
+            alt=""
+          />
+        </div>
       </div>
 
       <div className="projectSlide">
@@ -326,6 +354,13 @@ function Projects() {
           </a>
         </div>
         <div className="divjustify"></div>
+        <div className="projectImage">
+          <img
+            className="scrollingImage"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
+            alt=""
+          />
+        </div>
       </div>
 
       <div className="projectSlide">
