@@ -107,6 +107,24 @@
   background-color: white;
 }
 
+.ContactsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(15, 15, 15, 1) 90%,
+    rgba(61, 61, 61, 1) 93%,
+    rgba(156, 154, 154, 1) 95%,
+    rgba(219, 219, 219, 1) 97%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: white;
+}
+
 .name {
   position: relative;
   font-family: "DiamondDust";
@@ -270,4 +288,26 @@
   font-size: 30px;
   word-spacing: 10px;
   z-index: 1000;
+}
+
+.social-img {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  transition: all 0.4s;
+  border-radius: 20px;
+}
+
+.ContactsTitle {
+  font-family: "Montserrat-Bold";
+  font-size: 60px;
+  display: flex;
+}
+
+.social-img:hover {
+  box-shadow: 0px 0px 20px #888888;
+  transform: scale(1.03);
+}
+
+.ContactsTitle:hover {
 }

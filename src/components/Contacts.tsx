@@ -1,23 +1,31 @@
 function Contacts() {
   return (
-    <>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-      <p className="test-5">Contacts</p>
-      <p className="test-5">Github, Youtube Maybe, LinkedIn, Twitter Maybe</p>
-    </>
+    <div className="ContactsContainer">
+      <h1 className="ContactsTitle">Want to talk more?</h1>
+      <div>
+        <a href="https://www.linkedin.com/in/adeniyi-david/">
+          <img
+            className="social-img"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/linkedIn.png"
+            alt=""
+          />
+        </a>
+        <a href="https://github.com/DavidAde6">
+          <img
+            className="social-img"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/github.png"
+            alt=""
+          />
+        </a>
+        <a href="mailto:dadeniyi54@gmail.com">
+          <img
+            className="social-img"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/email.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
   );
 }
 
