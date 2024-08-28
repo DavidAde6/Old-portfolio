@@ -99,12 +99,25 @@
 }
 
 .SkillsContainer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   height: 100vh;
   width: 100%;
   background-color: white;
+}
+
+.SkillsRes1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.skillsRes2 {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .ContactsContainer {
@@ -169,7 +182,7 @@
   margin-left: 40px;
   margin-right: auto;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 150px;
   z-index: 1;
 }
 
@@ -178,7 +191,7 @@
   font-family: "Montserrat-Light";
   margin-left: auto;
   margin-right: 60px;
-  margin-top: 10px;
+  margin-top: 80px;
   margin-bottom: 10px;
   z-index: 1;
 }
@@ -203,7 +216,9 @@
   margin-top: 700px;
   display: flex;
   justify-content: center;
+  position: absolute;
   z-index: 1000;
+  margin-left: 770px;
 }
 
 .projectSlide {
@@ -282,12 +297,16 @@
   height: 612px;
   display: flex;
 }
-
 .skills-txt {
   font-family: "Montserrat-Light";
   font-size: 30px;
   word-spacing: 10px;
   z-index: 1000;
+  display: flex;
+}
+
+.skills-2 {
+  display: none;
 }
 
 .social-img {
@@ -304,10 +323,279 @@
   display: flex;
 }
 
+.SkillsTitleRes {
+  display: none;
+}
+
 .social-img:hover {
   box-shadow: 0px 0px 20px #888888;
   transform: scale(1.03);
 }
 
-.ContactsTitle:hover {
+@media (max-width: 1280px) {
+  .aboutMe-p1 {
+    font-size: 30px;
+    margin-left: 60px;
+  }
+
+  .aboutMe-p2 {
+    font-size: 30px;
+  }
+
+  .projectImage {
+    margin-left: 650px;
+  }
+
+  .projectBody {
+    margin-left: 50px;
+  }
+
+  .projectParagraph {
+    margin: 10px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .display-img {
+    width: 50px;
+    height: 50px;
+  }
+  .projectImage {
+    margin-left: 550px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .name {
+    font-size: 80px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .aboutMe-p1 {
+    font-size: 25px;
+    margin-bottom: 110px;
+    margin-left: 40px;
+  }
+
+  .aboutMe-p2 {
+    font-size: 25px;
+    margin-right: 40px;
+  }
+
+  .projectHeader {
+    font-size: 30px;
+  }
+
+  .projectTitle {
+    font-size: 40px;
+  }
+
+  .projectParagraph {
+    margin-top: 0;
+  }
+
+  .projectImage {
+    margin-left: 450px;
+  }
+
+  .projectLinkButton {
+    font-size: 30px;
+    width: 300px;
+    height: 75px;
+  }
+
+  .SkillsRes1 {
+    display: none;
+  }
+
+  .skillsRes2 {
+    display: flex;
+    z-index: 1000;
+    position: relative;
+  }
+
+  .skills-txt {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .ContactsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutMe-p1 {
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .aboutMe-p2 {
+    font-size: 20px;
+    margin-right: 40px;
+  }
+
+  .projectImage {
+    margin-left: 380px;
+  }
+
+  .projectTitle {
+    font-size: 35px;
+  }
+
+  .projectLinkButton {
+    width: 270px;
+  }
+}
+@media (max-width: 700px) {
+  .name {
+    font-size: 50px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .introductionContainer {
+    height: 70vh;
+  }
+
+  .aboutMe-p2 {
+    margin-top: 180px;
+  }
+
+  .projectImage {
+    visibility: hidden;
+  }
+
+  .fixed {
+    width: 100vw;
+  }
+
+  .projectTitle {
+    text-align: center;
+  }
+
+  .projectParagraph {
+    text-align: center;
+  }
+
+  .projectLink {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .projectBody {
+    margin: 50px;
+    margin-top: 10px;
+  }
+
+  .projectTitle {
+    font-size: 50px;
+  }
+
+  .frameworkImgContainer {
+    text-align: center;
+  }
+
+  .divjustify {
+    height: 100vh;
+  }
+
+  .ContactsTitle {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projectTitle {
+    font-size: 35px;
+  }
+
+  .skillsRes2 {
+    justify-content: center;
+    display: block;
+  }
+
+  .SkillsTitleRes {
+    display: block;
+    font-family: "Montserrat-Bold";
+    margin-bottom: 160px;
+    font-size: 30px;
+  }
+
+  .SkillsContainer {
+    height: 100%;
+    text-align: center;
+  }
+
+  .skills-txt {
+    margin: 0;
+    margin-bottom: 100px;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (max-width: 425px) {
+  .name {
+    font-size: 35px;
+  }
+
+  .projectLinkButton {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .projectParagraph {
+    font-size: 15px;
+  }
+
+  .ContactsTitle {
+    display: none;
+  }
+
+  .ContactsLink {
+    display: block;
+  }
+
+  .social-img {
+    display: block;
+  }
+
+  .display-img {
+    width: 40px;
+    height: 40px;
+  }
+  .title {
+    animation: none;
+    transform: translateY(0);
+  }
+  .introductionContainer {
+    height: 50vh;
+  }
+
+  .aboutMe-p2 {
+    text-align: center;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 325px) {
+  .name {
+    font-size: 25px;
+  }
+  .title {
+    animation: none;
+    transform: translateY(0);
+    font-size: 13px;
+  }
+  .introductionContainer {
+    height: 50vh;
+  }
 }

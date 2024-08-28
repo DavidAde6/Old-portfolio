@@ -2,7 +2,7 @@ function Contacts() {
   return (
     <div className="ContactsContainer">
       <h1 className="ContactsTitle">Want to talk more?</h1>
-      <div>
+      <div className="ContactsLink">
         <a href="https://www.linkedin.com/in/adeniyi-david/">
           <img
             className="social-img"
