@@ -181,7 +181,7 @@ function Projects() {
         <div className="projectImage">
           <img
             className="scrollingImage"
-            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Pathfinding.png"
             alt=""
           />
         </div>
@@ -240,7 +240,7 @@ function Projects() {
         <div className="projectImage">
           <img
             className="scrollingImage"
-            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/TitanicEstimator.png"
             alt=""
           />
         </div>
@@ -280,7 +280,7 @@ function Projects() {
         <div className="projectImage">
           <img
             className="scrollingImage"
-            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/AirPollution.png"
             alt=""
           />
         </div>

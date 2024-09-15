@@ -9,7 +9,7 @@ function AboutMe() {
     position: absolute;
     margin-left: auto;
     margin-right: 10px;
-    transition: transform 0.8s ease-out;
+    transition: transform 0.4s ease-out;
     @media (max-width: 1400px) {
       font-size: 200px;
     }
