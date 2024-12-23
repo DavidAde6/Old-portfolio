@@ -12,23 +12,12 @@ function Projects() {
     const rect4 = images[3].getBoundingClientRect();
     const project5 = document.getElementById("id-5")!;
     const rect5 = images[4].getBoundingClientRect();
-    const project6 = document.getElementById("id-6")!;
-    const rect6 = images[5].getBoundingClientRect();
     // BRO USE THE PROJECT IMAGE TO CHECK INSTEAD
-    if (rect6.top <= 0 && rect6.bottom >= 0) {
-      project5.classList.remove("fixed");
-      project5.classList.add("relative");
-      project6.classList.remove("relative");
-      project6.classList.add("fixed");
-      project4.classList.remove("fixed");
-      project4.classList.add("relative");
-    } else if (rect5.top <= 0 && rect5.bottom >= 0) {
+    if (rect5.top <= 0 && rect5.bottom >= 0) {
       project4.classList.remove("fixed");
       project4.classList.add("relative");
       project5.classList.remove("relative");
       project5.classList.add("fixed");
-      project6.classList.remove("fixed");
-      project6.classList.add("relative");
       project3.classList.remove("fixed");
       project3.classList.add("relative");
     } else if (rect4.top <= 0 && rect4.bottom >= 0) {
@@ -68,8 +57,8 @@ function Projects() {
     } else {
       project1.classList.remove("fixed");
       project1.classList.add("relative");
-      project6.classList.remove("fixed");
-      project6.classList.add("relative");
+      project5.classList.remove("fixed");
+      project5.classList.add("relative");
     }
   });
   return (
@@ -83,76 +72,106 @@ function Projects() {
         <div className="relative" id="id-1">
           <h1 className="projectHeader">01</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Personal Portfolio</h1>
+            <h1 className="projectTitle">Atmospheric NO2 Forecasting</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
-                alt="React"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/tensorflow.png"
+                alt="Tensorflow"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Typescript_logo.png"
-                alt="TypeScript"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/earth-engine-logo.png"
+                alt="Google Earth Engine"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
-                alt="CSS"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/esa.png"
+                alt="European Space Agency"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
-                alt="HTML"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
+                alt="Pandas"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
+                alt="Numpy"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/python.jpg"
+                alt="Python"
               />
             </div>
             <div className="projectParagraph">
               <p>
-                Fully responsive website designed primarily using React and its
-                frameworks. Leveraged Git and version control to track changes.
-                Additionally built using Typescript, HTML and CSS.
+                Leveraged Google Earth Engines geospatial processing
+                capabilities to model and predict the atmospheric concentration
+                of NO2 in Ottawa, using Sentinel 5P Satallite data, Long Short
+                Term Memory Neural Networks with Tensorflow, and Pandas and
+                Numpy for data preprocessing.
               </p>
             </div>
           </div>
-          <a href="https://davidade6.github.io/" className="projectLink">
+          <a
+            href="https://github.com/DavidAde6/Sentinel-5P-NO2-Prediction/blob/main/LSTM_NO2Prediction_Sentinel5P.ipynb"
+            className="projectLink"
+          >
             <button className="projectLinkButton">Link</button>
           </a>
         </div>
         <div className="hidden">
           <h1 className="projectHeader">01</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Personal Portfolio</h1>
+            <h1 className="projectTitle">Atmospheric NO2 Forecasting</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
-                alt="React"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/tensorflow.png"
+                alt="Tensorflow"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Typescript_logo.png"
-                alt="TypeScript"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/earth-engine-logo.png"
+                alt="Google Earth Engine"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
-                alt="CSS"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/esa.png"
+                alt="European Space Agency"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
-                alt="HTML"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
+                alt="Pandas"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
+                alt="Numpy"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/python.jpg"
+                alt="Python"
               />
             </div>
             <div className="projectParagraph">
               <p>
-                Fully responsive website designed primarily using React and its
-                frameworks. Leveraged Git and version control to track changes.
-                Additionally built using Typescript, HTML and CSS.
+                Leveraged Google Earth Engines geospatial processing
+                capabilities to model and predict the atmospheric concentration
+                of NO2 in Ottawa, using Sentinel 5P Satallite data, Long Short
+                Term Memory Neural Networks with Tensorflow, and Pandas and
+                Numpy for data preprocessing.
               </p>
             </div>
           </div>
-          <a href="https://davidade6.github.io/" className="projectLink">
+          <a
+            href="https://github.com/DavidAde6/Sentinel-5P-NO2-Prediction/blob/main/LSTM_NO2Prediction_Sentinel5P.ipynb"
+            className="projectLink"
+          >
             <button className="projectLinkButton">Link</button>
           </a>
         </div>
@@ -160,7 +179,7 @@ function Projects() {
         <div className="projectImage">
           <img
             className="scrollingImage"
-            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PersonalPortfolio.png"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/AirPollution.png"
             alt=""
           />
         </div>
@@ -200,10 +219,10 @@ function Projects() {
             </div>
             <div className="projectParagraph">
               <p>
-                Used AI techniques and neural networks to create an interactive
-                pathfinding visualizer on a grid. Designed mainly with Python,
-                and HTML & CSS for interface. Flask and PythonAnywhere to host
-                the app.
+                Simple project using AI techniques and neural networks to create
+                an interactive pathfinding visualizer on a grid. Designed mainly
+                with Python, and HTML & CSS for interface. Flask and
+                PythonAnywhere to host the app.
               </p>
             </div>
           </div>
@@ -248,10 +267,10 @@ function Projects() {
             </div>
             <div className="projectParagraph">
               <p>
-                Used AI techniques and neural networks to create an interactive
-                pathfinding visualizer on a grid. Designed mainly with Python,
-                and HTML & CSS for interface. Flask and PythonAnywhere to host
-                the app.
+                Simple project using AI techniques and neural networks to create
+                an interactive pathfinding visualizer on a grid. Designed mainly
+                with Python, and HTML & CSS for interface. Flask and
+                PythonAnywhere to host the app.
               </p>
             </div>
           </div>
@@ -277,22 +296,12 @@ function Projects() {
         <div className="relative" id="id-3">
           <h1 className="projectHeader">03</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Titanic Survival Estimator</h1>
+            <h1 className="projectTitle">Personal Portfolio</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
-                alt="PyTorch"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
-                alt="Numpy"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
-                alt="Pandas"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
+                alt="React"
               />
               <img
                 className="display-img"
@@ -312,35 +321,25 @@ function Projects() {
             </div>
             <div className="projectParagraph">
               <p>
-                Powered by pytorch, and frameworks like pandas, and numpy to
-                determine whether an individual might have survived on the
-                titanic. Built with by Python, Typescript, HTML & CSS
+                Fully responsive website designed primarily using React and its
+                frameworks. Leveraged Git and version control to track changes.
+                Additionally built using Typescript, HTML and CSS.
               </p>
             </div>
           </div>
           <a href="" className="projectLink">
-            <button className="projectLinkButton">UNAVAILABLE</button>
+            <button className="projectLinkButton">U here</button>
           </a>
         </div>
         <div className="hidden">
           <h1 className="projectHeader">03</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Titanic Survival Estimator</h1>
+            <h1 className="projectTitle">Personal Portfolio</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
-                alt="PyTorch"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
-                alt="Numpy"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
-                alt="Pandas"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
+                alt="React"
               />
               <img
                 className="display-img"
@@ -360,21 +359,21 @@ function Projects() {
             </div>
             <div className="projectParagraph">
               <p>
-                Powered by pytorch, and frameworks like pandas, and numpy to
-                determine whether an individual might have survived on the
-                titanic. Built with by Python, Typescript, HTML & CSS
+                Fully responsive website designed primarily using React and its
+                frameworks. Leveraged Git and version control to track changes.
+                Additionally built using Typescript, HTML and CSS.
               </p>
             </div>
           </div>
           <a href="" className="projectLink">
-            <button className="projectLinkButton">UNAVAILABLE</button>
+            <button className="projectLinkButton">U here</button>
           </a>
         </div>
         <div className="divjustify"></div>
         <div className="projectImage">
           <img
             className="scrollingImage"
-            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/TitanicEstimator.png"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PersonalPortfolio.png"
             alt=""
           />
         </div>
@@ -384,26 +383,36 @@ function Projects() {
         <div className="relative" id="id-4">
           <h1 className="projectHeader">04</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Lakes & River Path Optimisation</h1>
+            <h1 className="projectTitle">Fluct</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
-                alt="PyTorch"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/python.jpg"
+                alt="Python"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
-                alt="Numpy"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/openai.png"
+                alt="OpenAI"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
-                alt="Pandas"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
+                alt="HTML"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
+                alt="CSS"
               />
             </div>
             <div className="projectParagraph">
-              <p>MORE INFO SOON</p>
+              <p>
+                A B2B Solution allowing business owners to properly streamline
+                their workflows, making it more efficient. Business owners are
+                easily able to identify weaknesses, trends, and further concerns
+                with our user friendly UI.
+              </p>
             </div>
           </div>
           <a href="https://davidade6.github.io/" className="projectLink">
@@ -413,26 +422,36 @@ function Projects() {
         <div className="hidden">
           <h1 className="projectHeader">04</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Lakes & River Path Optimisation</h1>
+            <h1 className="projectTitle">Fluct</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
-                alt="PyTorch"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/python.jpg"
+                alt="Python"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
-                alt="Numpy"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/openai.png"
+                alt="OpenAI"
               />
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
-                alt="Pandas"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
+                alt="HTML"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
+                alt="CSS"
               />
             </div>
             <div className="projectParagraph">
-              <p>MORE INFO SOON</p>
+              <p>
+                A B2B Solution allowing business owners to properly streamline
+                their workflows, making it more efficient. Business owners are
+                easily able to identify weaknesses, trends, and further concerns
+                with our user friendly UI.
+              </p>
             </div>
           </div>
           <a href="https://davidade6.github.io/" className="projectLink">
@@ -443,7 +462,7 @@ function Projects() {
         <div className="projectImage">
           <img
             className="scrollingImage"
-            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/AirPollution.png"
+            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Fluct.png"
             alt=""
           />
         </div>
@@ -453,53 +472,57 @@ function Projects() {
         <div className="relative" id="id-5">
           <h1 className="projectHeader">05</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Game Development (Roblox)</h1>
+            <h1 className="projectTitle">Game Development (Unity)</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Lua-Logo.png"
-                alt="Lua"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/cpp-logo.png"
+                alt="C++"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/blender.png"
+                alt="Blender"
               />
             </div>
             <div className="projectParagraph">
               <p>
-                Aided with the scripting of a roblox game using LUA.
-                Collaborated with a team of developers to build a game on the
-                roblox platformss.
+                Aided with the scripting of a unity game project using C++.
+                Collaborated with a team of developers to build a game on unity,
+                as well as designing 3d models on blender.
               </p>
             </div>
           </div>
-          <a
-            href="https://www.roblox.com/games/16757765700/02"
-            className="projectLink"
-          >
-            <button className="projectLinkButton">Link</button>
+          <a href="" className="projectLink">
+            <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
         <div className="hidden">
           <h1 className="projectHeader">05</h1>
           <div className="projectBody">
-            <h1 className="projectTitle">Game Development (Roblox)</h1>
+            <h1 className="projectTitle">Game Development (Unity)</h1>
             <div className="frameworkImgContainer">
               <img
                 className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Lua-Logo.png"
-                alt="Lua"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/cpp-logo.png"
+                alt="C++"
+              />
+              <img
+                className="display-img"
+                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/blender.png"
+                alt="Blender"
               />
             </div>
             <div className="projectParagraph">
               <p>
-                Aided with the scripting of a roblox game using LUA.
-                Collaborated with a team of developers to build a game on the
-                roblox platformss.
+                Aided with the scripting of a unity game project using C++.
+                Collaborated with a team of developers to build a game on unity,
+                as well as designing 3d models on blender.
               </p>
             </div>
           </div>
-          <a
-            href="https://www.roblox.com/games/16757765700/02"
-            className="projectLink"
-          >
-            <button className="projectLinkButton">Link</button>
+          <a href="" className="projectLink">
+            <button className="projectLinkButton">UNAVAILABLE</button>
           </a>
         </div>
         <div className="divjustify"></div>
@@ -507,115 +530,6 @@ function Projects() {
           <img
             className="scrollingImage"
             src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/RobloxGame.png"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <div className="projectSlide">
-        <div className="relative" id="id-6">
-          <h1 className="projectHeader">06</h1>
-          <div className="projectBody">
-            <h1 className="projectTitle">AI Video Analysis</h1>
-            <div className="frameworkImgContainer">
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
-                alt="PyTorch"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
-                alt="Numpy"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
-                alt="Pandas"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
-                alt="React"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Typescript_logo.png"
-                alt="TypeScript"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
-                alt="CSS"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
-                alt="HTML"
-              />
-            </div>
-            <div className="projectParagraph">
-              <p>MORE INFO SOON</p>
-            </div>
-          </div>
-          <a href="" className="projectLink">
-            <button className="projectLinkButton">UNAVAILABLE</button>
-          </a>
-        </div>
-        <div className="hidden">
-          <h1 className="projectHeader">06</h1>
-          <div className="projectBody">
-            <h1 className="projectTitle">AI Video Analysis</h1>
-            <div className="frameworkImgContainer">
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/PyTorch.png"
-                alt="PyTorch"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/numpy-logo.png"
-                alt="Numpy"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/pandas-logo.png"
-                alt="Pandas"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/React.png"
-                alt="React"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/Typescript_logo.png"
-                alt="TypeScript"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/css-logo.png"
-                alt="CSS"
-              />
-              <img
-                className="display-img"
-                src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/html-logo.png"
-                alt="HTML"
-              />
-            </div>
-            <div className="projectParagraph">
-              <p>MORE INFO SOON</p>
-            </div>
-          </div>
-          <a href="" className="projectLink">
-            <button className="projectLinkButton">UNAVAILABLE</button>
-          </a>
-        </div>
-        <div className="divjustify"></div>
-        <div className="projectImage">
-          <img
-            className="scrollingImage"
-            src="https://raw.githubusercontent.com/DavidAde6/DavidAde6.github.io/main/src/assets/images/incomplete.png"
             alt=""
           />
         </div>
